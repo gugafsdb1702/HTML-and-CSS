@@ -1,0 +1,116 @@
+body{
+    background-color: #FFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
+}
+header{
+    background-color: #FFF;
+    height: 60px;
+    padding: 0 0;
+    line-height: 60px;
+}
+footer{
+    clear: both;
+    background-color: #BA0909;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+#logo{
+    float: left;
+    width: 300px;
+    font-size: 30px;
+    /* background-image: url('./logicalis.png'); */
+    min-height: 55px;
+    background-size: 100%;
+    margin-top: 3px;
+    text-decoration: none;
+    color: #000;
+}
+#menu{
+    float: right;
+}
+#menu a{
+    margin-left: -5px;
+    padding: 30px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #BA0909;
+    color: #FFF}
+#menu a:hover{
+    background-color: #8A0606;
+    color: #FFF;
+}
+#principal{
+    clear: both;
+    background-image: url('./background.jpg');
+    background-size: 100%;
+    min-height: 320px;
+    padding: 150px 0 0 0;
+}
+.efeito{
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10% 0 10% 0;
+    margin-top: -150PX;
+}
+.container{
+    padding: 0 100px;
+    margin: 0 auto;
+}
+.container h1{
+    /*text-align: center;*/
+    padding: 2.5%;
+    color: #FFF;
+    position: absolute;
+    margin-top: -50px;
+}
+.container p{
+    font-size: 18px;
+    color: #DDD;
+    padding: 2.5% 3%;
+    text-align: justify;
+}
+#texto-efeito{
+    max-width: 40%;
+}
+.texts{
+    position: relative;
+    float: left;
+    width: 40%;
+    text-align: justify;
+    padding: 0 5% 0 5%;
+}
+h2{
+    clear: both;
+    max-width: 300px;
+    margin: 50px 5% 0 2.5%;
+}
+.text{
+    color: #000 !important;
+}
+footer{
+    clear: both;
+    line-height: 15x;
+    background-color: #BA0909;
+    height: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#btn-envia{
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 30px 0 30px 0;
+    background-color: #BA0909;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3%;
+}
+#btn-envia:hover{
+    background-color: #8A0606;
+}
