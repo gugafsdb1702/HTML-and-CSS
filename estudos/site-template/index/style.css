@@ -1,5 +1,7 @@
 body{
-    background-color: #FFF;
+    background-image: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 *{
     margin: 0;
@@ -35,7 +37,7 @@ footer{
 }
 #menu a{
     margin-left: -5px;
-    padding: 30px 20px;
+    padding: 35px 20px;
     font-weight: bold;
     text-decoration: none;
     background-color: #BA0909;
@@ -46,10 +48,7 @@ footer{
 }
 #principal{
     clear: both;
-    background-image: url('./background.jpg');
     background-size: 100%;
-    min-height: 320px;
-    padding: 150px 0 0 0;
 }
 .efeito{
     clear: both;
@@ -92,14 +91,6 @@ h2{
 .text{
     color: #000 !important;
 }
-footer{
-    clear: both;
-    line-height: 15x;
-    background-color: #BA0909;
-    height: 10px;
-    text-align: center;
-    padding: 10px;
-}
 #btn-envia{
     border: none;
     width: 150px;
@@ -113,4 +104,19 @@ footer{
 }
 #btn-envia:hover{
     background-color: #8A0606;
+}
+#img-text{
+    padding: 5% 15%;
+    font-size: 30px;
+    color: #FFF ;
+}
+.secundaria{
+    min-height: 1000px;
+    padding: 10% 5%;
+    float: left;
+}
+.secao{
+    width: 600px;
+    height: 600px;
+    border: solid 2px red;
 }
